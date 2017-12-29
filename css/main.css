@@ -42,7 +42,6 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
-    content: none;
 }
 
 a {
@@ -77,8 +76,8 @@ header {
     width: 400px;
     float: right;
     margin-bottom: 30px;
-    border: 0px solid rgba(244, 208, 0, 1);
-    background-color: rgba(244, 208, 0, 1);
+    border: 0 solid #f4d000;
+    background-color: #f4d000;
     border-radius: 0 6px 0 6px;
     padding-left: 10px;
 }
@@ -138,8 +137,8 @@ header {
     font-family: 'open sans',sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    border-left: 1px solid rgba(0, 0, 0, 1);
-    background: rgba(0, 0, 0, 1);
+    border-left: 1px solid #000;
+    background: #000;
     transition: background-color 0.4s ease 0s;
 }
 
@@ -156,12 +155,12 @@ header {
 }
 
 .mainMenu li:hover{
-    background: rgba(84, 84, 84, 1);
+    background: #545454;
 }
 
 .mainMenu li.selected {
     color: #000;
-    background: rgba(244, 208, 0, 1);
+    background: #F4D000;
 }
 
 .mainMenu li.first{
