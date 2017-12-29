@@ -1,0 +1,173 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-image: url('../images/main_background.png');
+    background-color: #000000;
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    width: 980px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.center{
+    text-align: center;
+}
+.white{
+    color: #fff;
+}
+
+.phoneBlock {
+    width: 400px;
+    float: right;
+    margin-bottom: 30px;
+    border: 0px solid rgba(244, 208, 0, 1);
+    background-color: rgba(244, 208, 0, 1);
+    border-radius: 0 6px 0 6px;
+    padding-left: 10px;
+}
+
+.phoneText {
+    font-family: Tahoma;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.goal{
+    margin-bottom: 20px;
+    color: #F4D000;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.goal .phrase{
+    font-size: 43px;
+    text-transform: uppercase;
+}
+
+.yourMechanicsText{
+    font-size: 24px;
+}
+
+.tools{
+    width: 59px;
+    height: 57px;
+    float: left;
+    margin-right: 5px;
+    background-image: url('../images/tools.png');
+}
+
+
+.mainMenu{
+    clear: both;
+    margin-left: 10px;
+
+}
+
+.mainMenu li{
+    width: 240px;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-family: 'open sans',sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 1);
+    transition: background-color 0.4s ease 0s;
+}
+
+.mainMenu li:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: transparent url('../images/shiny1button_bg.png') center center repeat-x;
+
+}
+
+.mainMenu li:hover{
+    background: rgba(84, 84, 84, 1);
+}
+
+.mainMenu li.selected {
+    color: #000;
+    background: rgba(244, 208, 0, 1);
+}
+
+.mainMenu li.first{
+    border-radius: 10px 0 0 0;
+}
+
+.mainMenu li.last{
+    border-radius: 0 10px 0 0;
+}

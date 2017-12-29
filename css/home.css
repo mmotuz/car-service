@@ -1,0 +1,118 @@
+.home{
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.menu{
+    float: left;
+    margin-right: 30px;
+}
+
+.home .description{
+    font-size: 15px;
+    line-height: 1.4em;
+    font-family: 'open sans',sans-serif;
+    color: #fff;
+}
+
+.menu li{
+    width: 280px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    background-color: rgba(42, 42, 42, 1);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'open sans',sans-serif;
+}
+
+.menu li:hover{
+    color: #F4D000;
+    cursor: pointer;
+}
+
+.menu li:before{
+    display: block;
+    content: '';
+    width: 48px;
+    height: 48px;
+    float: left;
+    background-image: url('../images/shesterenka48.png');
+    margin: 7px;
+}
+
+.welcome{
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-bottom: 4px solid #F4D000;
+}
+
+.welcome .header{
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #F4D000;
+}
+
+.shortInfo{
+    margin-top: 50px;
+}
+
+.shortInfo .aboutCompany{
+    padding-right: 20px;
+    border-right: 2px solid #F4D000;
+    float: left;
+}
+
+.shortInfo .services{
+    float: left;
+    margin-left: 60px;
+}
+
+.shortInfo .services ul{
+    list-style-type: disc;
+    color: #fff;
+}
+
+.services ul li{
+    margin-bottom: 20px;
+}
+
+.aboutCompany .header, .services .header, .general .header{
+    color: #F4D000;
+    font-family: 'open sans', sans-serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.general .header{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.general .info{
+    margin-left: 20px;
+}
+
+.aboutCompany .general{
+    width: 295px;
+    height: 470px;
+    margin-right: 35px;
+    float: left;
+    background-color: rgba(42, 42, 42, 1);
+    border-radius: 4px;
+}
+
+.aboutCompany .textBlock{
+    float: left;
+    width: 300px;
+}
+
+.aboutCompany .mapLocation{
+    width: 280px;
+    margin: 10px auto 0 auto;
+}
