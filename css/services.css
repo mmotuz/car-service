@@ -1,0 +1,31 @@
+.servicesList li{
+    border: 1px solid #F4D000;
+    border-radius: 5px;
+    margin: 25px 20px 0 20px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.servicesList .number{
+    float: left;
+    margin-right: 17px;
+    font-size: 60px;
+    color: #F4D000;
+    font-family: "open sans", sans-serif;
+}
+.servicesList .description{
+    overflow: hidden;
+}
+.servicesList .header{
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #F4D000;
+    font-family: "open sans", sans-serif;
+}
+
+.servicesList .content{
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #fff;
+    font-family: "open sans", sans-serif;
+}
