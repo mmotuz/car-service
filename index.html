@@ -5,6 +5,7 @@
     <title>Avto-coplex</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/services.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -22,13 +23,13 @@
         <p class="phoneText">(096) 79-80-589  (099) 56-35-980</p>
     </div>
     <ul class="mainMenu">
-        <li class="first selected">Главная</li>
+        <li class="first">Главная</li>
         <li>Техническое обслуживание</li>
-        <li>Услуги</li>
-        <li class="last">Адрес</li>
+        <li class="selected">Услуги</li>
+        <li class="last">Контакты</li>
     </ul>
 </header>
-<div class="home">
+<div class="tabContent home" style="display: none;">
     <!-- placeholder for images gallery of company services-->
     <div class="gallery">
         <img src="images/example_photo.jpg" width="960" height="437">
@@ -55,7 +56,7 @@
                     <p class="description">ПН — ПТ: c 7:30 до 18:00</p>
                     <p class="description">СБ,ВС: Выходной</p>
                     <p class="header">Адрес:</p>
-                    <p class="description">м.Умань вул. Михайлывська, 122</p>
+                    <p class="description">г.Умань вул. Михайловская, 122</p>
                     <p class="description">GPS - 48.727377 : 30.236959</p>
                 </div>
                 <div class="mapLocation">
@@ -68,7 +69,7 @@
             </div>
 
         </div>
-        <div class="services">
+        <div class="shortServicesList">
             <p class="header">Услуги</p>
             <ul class="description">
                 <li>Полная диагностика</li>
@@ -85,6 +86,40 @@
         </div>
     </div>
 </div>
+<div class="tabContent services">
+    <p class="tabHeader">
+      УСЛУГИ
+    </p>
+    <ul class="servicesList">
+        <li>
+            <div class="number">01</div>
+            <div class="description">
+                <p class="header">РЕМОНТ ДВИГАТЕЛЯ</p>
+                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+            </div>
+        </li>
+        <li>
+            <div class="number">02</div>
+            <div class="description">
+                <p class="header">РЕМОНТ ТРАНСМИССИИ</p>
+                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+            </div>
+        </li>
+        <li>
+            <div class="number">03</div>
+            <div class="description">
+                <p class="header">ПРОБЛЕМЫ ЭЛЕКТРОСИСТЕМЫ</p>
+                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="tabContent contacts" style="display: none">
+    <p class="tabHeader">
+        Контакты
+    </p>
+</div>
+
 <footer></footer>
 
 </body>
