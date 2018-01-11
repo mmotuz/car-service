@@ -7,6 +7,11 @@
     <link rel="stylesheet" type="text/css" href="./css/home.css">
     <link rel="stylesheet" type="text/css" href="./css/services.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </head>
 <body>
 <header>
@@ -22,14 +27,14 @@
         <p class="phoneText center">Звоните:</p>
         <p class="phoneText">(096) 79-80-589  (099) 56-35-980</p>
     </div>
-    <ul class="mainMenu">
-        <li class="first selected">Главная</li>
+    <ul id="mainMenu" class="mainMenu">
+        <li tab="homeTab" class="first selected">Главная</li>
         <li>Техническое обслуживание</li>
-        <li class="">Услуги</li>
-        <li class="last">Контакты</li>
+        <li tab="servicesTab" class="">Услуги</li>
+        <li tab="contactsTab" class="last">Контакты</li>
     </ul>
 </header>
-<div class="tabContent home">
+<div id="homeTab" class="tabContent home">
     <!-- placeholder for images gallery of company services-->
     <div class="gallery">
         <img src="images/example_photo.jpg" width="960" height="437">
@@ -86,7 +91,7 @@
         </div>
     </div>
 </div>
-<div class="tabContent services" style="display: none;">
+<div id="servicesTab" class="tabContent services" style="display: none;">
     <p class="tabHeader">
       УСЛУГИ
     </p>
@@ -95,26 +100,26 @@
             <div class="number">01</div>
             <div class="description">
                 <p class="header">РЕМОНТ ДВИГАТЕЛЯ</p>
-                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+                <p class="content">Ремонт двигателя автомобиля является сложной и ответственной операцией. И эту работу можно доверить только настоящим профессионалам, которые хорошо разбираются в устройстве мотора, ведь без необходимых знаний обслуживание ДВС непрофессионалами может только навредить. Конечно, лучшим вариантом видится ремонт двигателя своими руками, но тут есть нюансы. При ремонте мотора используются специализированные инструменты, которые иногда нельзя найти в автомагазинах</p>
             </div>
         </li>
         <li>
             <div class="number">02</div>
             <div class="description">
                 <p class="header">РЕМОНТ ТРАНСМИССИИ</p>
-                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+                <p class="content">Коробка переключения передач подвержена усиленной эксплуатации на протяжении многих и многих лет, поэтому нет ничего удивительного в том, что через некоторое время в ней обязательно возникнут какие-то неисправности. Ремонт трансмиссии может быть довольно дорогим, так что вам следует обращать внимание на все, что может показаться странным в ее работе.</p>
             </div>
         </li>
         <li>
             <div class="number">03</div>
             <div class="description">
                 <p class="header">ПРОБЛЕМЫ ЭЛЕКТРОСИСТЕМЫ</p>
-                <p class="content">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе. Чтобы удалить этот текст, нажмите один раз и выберите значок «Корзина».</p>
+                <p class="content">Электрооборудование современного автомобиля включает в себя целый комплекс электрических узлов, от простых предохранителей до бортовых компьютеров, и является мозговым центром автомобиля, который координирует работу узлов и механизмов автомобиля от которых зависит не только комфортная езда, и Ваша безопасность. Но выявить неисправности сложных электронных узлов автомобиля может только высококвалифицированный мастер применяющий передовое современное оборудование для проведения диагностики электрооборудования автомобиля. Чтобы не иметь неприятностей при езде необходима своевременная диагностика электрооборудования автомобиля</p>
             </div>
         </li>
     </ul>
 </div>
-<div class="tabContent contacts" style="display: none">
+<div id="contactsTab" class="tabContent contacts" style="display: none">
     <p class="tabHeader">
         Контакты
     </p>
