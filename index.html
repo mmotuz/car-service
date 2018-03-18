@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
     <link rel="stylesheet" type="text/css" href="./css/services.css">
+    <link rel="stylesheet" type="text/css" href="./css/contacts.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -13,15 +14,15 @@
             crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
 </head>
+
+TIR service(СТО)  AVTO-COMPLEX.  Робочий день :з 8.00—18.00 Вихідний неділя
 <body>
 <header>
     <div class="goal">
-        <div class="tools"></div>
         <p class="phrase">
-            <span class="white">ви катаетесь,</span>
-            <span>мы чиним</span>
+            <span>AVTO-COMPLEX</span>
+            <span class="white">TIR service(СТО)</span>
         </p>
-        <p class="yourMechanicsText">Ваши личные механики</p>
     </div>
     <div class="phoneBlock">
         <p class="phoneText center">Звоните:</p>
@@ -29,7 +30,6 @@
     </div>
     <ul id="mainMenu" class="mainMenu">
         <li tab="homeTab" class="first selected">Главная</li>
-        <li>Техническое обслуживание</li>
         <li tab="servicesTab" class="">Услуги</li>
         <li tab="contactsTab" class="last">Контакты</li>
     </ul>
@@ -45,12 +45,17 @@
             <li>Ремонт</li>
             <li>Техобcлуживание</li>
         </ul>
-        <div>
-            <p class="header">Заезжайте!</p>
-            <p class="description">
-                Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт.
-                Здесь будет удачно смотреться текст о вашей компании и услугах. Используйте эту возможность, чтобы выгодно представить себя и свою компанию клиентам. Расскажите интересную историю, например, как вам в голову пришла идея собственного дела, и объясните, в чем заключается ваше преимущество перед конкурентами. Не забудьте про ключевые слова, по которым ваш сайт найдут в поисковых системах.
-            </p>
+        <div class="description">
+            <p class="header">Производим ремонт грузовых автомобилей</p>
+            <ul class="supportedCars">
+                <li>DAF</li>
+                <li>MAN</li>
+                <li>Mercedes</li>
+                <li>Reno</li>
+                <li>Volvo</li>
+                <li>Scania</li>
+            </ul>
+
         </div>
     </div>
     <div class="shortInfo">
@@ -58,8 +63,8 @@
             <div class="general">
                 <div class="info">
                     <p class="header">Время работы:</p>
-                    <p class="description">ПН — ПТ: c 7:30 до 18:00</p>
-                    <p class="description">СБ,ВС: Выходной</p>
+                    <p class="description">ПН — СБ: c 8:00 до 18:00</p>
+                    <p class="description">ВС: Выходной</p>
                     <p class="header">Адрес:</p>
                     <p class="description">г.Умань вул. Михайловская, 122</p>
                     <p class="description">GPS - 48.727377 : 30.236959</p>
@@ -70,23 +75,23 @@
             </div>
             <div class="textBlock">
                 <p class="header">O компании</p>
-                <p class="description">Здесь будет удачно смотреться текст о вашей компании и услугах. Используйте эту возможность, чтобы выгодно представить себя и свою компанию клиентам. Расскажите интересную историю, например, как вам в голову пришла идея собственного дела, и объясните, в чем заключается ваше преимущество перед конкурентами. Не забудьте про ключевые слова, по которым ваш сайт найдут в поисковых системах.</p>
+                <p class="description">
+                    Производим ремонт грузовых автомобилей: DAF, MAN, MERCEDES, RENO, VOLVO, SCANIA
+                </p>
             </div>
 
         </div>
         <div class="shortServicesList">
             <p class="header">Услуги</p>
             <ul class="description">
-                <li>Полная диагностика</li>
-                <li>Анализ безопасности</li>
-                <li>Настройка управляемости</li>
-                <li>Тюнинг</li>
-                <li>Замена масла</li>
-                <li>Смена покрышек</li>
-                <li>Ремонт тормозной системы</li>
-                <li>Выхлопная система</li>
-                <li>Рулевая система и подвеска</li>
-                <li>Развал-схождение</li>
+                <li>Ремонт прицепов, полуприцепов</li>
+                <li>Ремонт тягачей</li>
+                <li>Ремонт ходовой</li>
+                <li>Ремонт коробки передач</li>
+                <li>Ремонт двигателя</li>
+                <li>Ремонт редуктора заднего моста</li>
+                <li>Электрика</li>
+                <li>АВС</li>
             </ul>
         </div>
     </div>
@@ -123,6 +128,18 @@
     <p class="tabHeader">
         Контакты
     </p>
+    <div class="info">
+        <p class="header">Адрес:</p>
+        <p class="description">г.Умань вул. Михайловская, 122</p>
+        <p class="description">GPS - 48.727377 : 30.236959</p>
+        <div class="socialNetworks">
+
+        </div>
+    </div>
+
+    <div class="mapLocation">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4426.185224844937!2d30.235992657926882!3d48.72792627522129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d20c32ff52e6cd%3A0x8b57fbb1f43caafc!2z0YPQuy4g0JDRgNGC0LXQvNCwLCAxMjI!5e0!3m2!1sru!2sua!4v1514477279266" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 </div>
 
 <footer></footer>

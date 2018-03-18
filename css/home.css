@@ -56,9 +56,14 @@
     margin-bottom: 15px;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 25px;
     color: #F4D000;
 }
+
+.welcome .description{
+    float: left;
+}
+
 
 .shortInfo{
     margin-top: 50px;
@@ -117,4 +122,16 @@
 .aboutCompany .mapLocation{
     width: 280px;
     margin: 10px auto 0 auto;
+}
+
+.supportedCars{
+    list-style-type: disc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 22px;
+}
+
+.supportedCars li{
+    margin-bottom: 5px;
 }

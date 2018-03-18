@@ -1,0 +1,30 @@
+.contacts .tabHeader{
+    margin-bottom: 15px;
+}
+.contacts .mapLocation{
+    width: 600px;
+    height: 450px;
+    float: right;
+}
+
+.contacts .info{
+    float: left;
+    margin-left: 10px;
+}
+
+.contacts .info .header {
+    color: #F4D000;
+    font-family: 'open sans', sans-serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.contacts .info .description{
+    font-size: 15px;
+    line-height: 1.8em;
+    font-family: 'open sans',sans-serif;
+    color: #fff;
+}
+.contacts .socialNetworks a{
+    display: block;
+}
+
