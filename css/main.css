@@ -62,6 +62,7 @@ body {
 header {
     width: 980px;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .center{
