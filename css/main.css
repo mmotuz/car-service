@@ -89,12 +89,13 @@ header {
 }
 
 .goal{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #F4D000;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
 }
 
 .goal .phrase{
